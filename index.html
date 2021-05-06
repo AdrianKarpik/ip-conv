@@ -2,12 +2,21 @@
 <html lang="pl">
 <head>
 	<meta charset="utf-8">
-	<title></title>
+	<title>konwerter</title>
 </head>
 <body>
 	<h1>Konwerter adresow IP</h1>
 	<p>Prosty konwerter formatów adresów</p>
 	<input type="text" id="in"> >> <output id="out"></output><br>
+	
+
+	<p>Podaj adres IP oraz jego klasę adresową, by sprawdzić swoją wiedzę</p>
+	Adres IP: 
+	<input type="text" id="spr">
+	Klasa adresowa:
+	<input type="text" maxlength="1" size="1" id="klasa"> 
+	<button id="sprBtn">SPRAWDZ!</button> <br>
+	<hr>
 	<output id="msgs"></output>
 	<script src="ipConv.js"></script>
 
